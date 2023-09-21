@@ -124,5 +124,5 @@ Untuk melakukan filter sehingga wireshark hanya mengambil paket yang berasal dar
 ### Soal 10
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 - Penjelasan:
-Pada file pcap yang telah diberikan, kami melakukan follow TCP stream pada paket dengan protokol `TELNET`. Ketika difollow, terdapat kredensial user dengan format `username:password`, lalu kami melakukan stream hingga menemui stream 15 yang merupakan kredensial yang benar ketika user mencoba login, yaitu `ddhhaaffiinn:kesayangannyak0k0`.
+Pada file pcap yang telah diberikan, kami melakukan follow TCP stream pada paket dengan protokol `TELNET`. Ketika difollow, terdapat kredensial user dengan format `username:password`, lalu kami melakukan stream hingga menemui stream 15 yang merupakan kredensial yang benar ketika user mencoba login, yaitu `dhafin:kesayangannyak0k0`.
 ![Foto](./img/10.png)

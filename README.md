@@ -49,6 +49,7 @@ Didapatkan acknowledge number (raw) dari paket tersebut yaitu `258040696`.
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 - Penjelasan:
 Web Server yang digunakan pada portal praktikum Jaringan Komputer adalah `gunicorn`. Kami menggunakan filter `http` untuk mendapatkan web server yang digunakan.
+![Foto](./img/2.png)
 
 ---
 ### Soal 3

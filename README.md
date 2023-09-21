@@ -5,7 +5,7 @@
 Nama Anggota Kelompok | NRP
 ------------------- | --------------		
 Aqil Sulthan Yuki Maye | 5027211007
-Adimas Defatra Bimasena Sulthantik M | 5027211040
+Adimas Defatra Bimasena | 5027211040
 
 ## Modul 1
 

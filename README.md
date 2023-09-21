@@ -2,7 +2,7 @@
 
 **Kelompok IT08**
 
-Nama Anggota | NRP
+Nama Anggota Kelompok | NRP
 ------------------- | --------------		
 Aqil Sutlhan Yuki Maye | 5027211007
 Adimas Defatra Bimasena Sulthantik M | 5027211040

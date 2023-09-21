@@ -96,6 +96,7 @@ Berdasarkan alamat IP yang tercapture, alamat IP yang merupakan public IP adalah
 ### Soal 6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan `"server SOURCE ADDRESS 7812 is invalid"`. ketika ditelusuri di google, hasil pencarian hanya menampilkan `a1 e5 u21`. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
 - Penjelasan:
+Kami melakukan display filter dengan kueri `frame.number == 7812` agar hanya menampilkan paket nomor 7812. Kemudian dari soal, terdapat sebuah hint tersembunyi yang didapatkan dari rangkaian huruf besar disoal, yaitu `"SUBSTITUSI"`. Dari hint tersebut, kami melakukan substitusi alamat IP source paket 7812 (`104.18.14.101`) ke huruf abjad, yaitu 10 subtitusi ke huruf menjadi J, 4 menjadi D, 18 menjadi R, 14 menjadi N, 10 menjadi J, dan 1 menjadi A. Sehingga didapat solusi kode error yaitu `"JDRNJA"` 
 ![Foto](./img/6.png)
 
 ---
@@ -123,5 +124,5 @@ Untuk melakukan filter sehingga wireshark hanya mengambil paket yang berasal dar
 ### Soal 10
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 - Penjelasan:
-Pada file pcap yang telah diberikan, kami melakukan follow TCP stream pada paket dengan protokol `TELNET`. Ketika difollow, terdapat kredensial user dengan format `username:password`, lalu kami melakukan stream hingga menemui stream 15 yang merupakan kredensial yang benar ketika user mencoba login.
+Pada file pcap yang telah diberikan, kami melakukan follow TCP stream pada paket dengan protokol `TELNET`. Ketika difollow, terdapat kredensial user dengan format `username:password`, lalu kami melakukan stream hingga menemui stream 15 yang merupakan kredensial yang benar ketika user mencoba login, yaitu `dhafin:kesayangannyak0k0`.
 ![Foto](./img/10.png)

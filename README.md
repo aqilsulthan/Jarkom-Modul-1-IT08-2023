@@ -111,14 +111,14 @@ Kami menggunakan display filter `ip.dst == 184.87.193.88` untuk memfilter jumlah
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port `80`! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
 - Penjelasan:
 Untuk melakukan filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80, kueri filter yang dapat digunakan yaitu `tcp.dstport == 80 || udp.dstport == 80`.
-![Foto](./img/8.png)
+<!-- ![Foto](./img/8.png) -->
 
 ---
 ### Soal 9
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat `10.51.40.1` tetapi tidak menuju ke alamat `10.39.55.34`!
 - Penjelasan:
 Untuk melakukan filter sehingga wireshark hanya mengambil paket yang berasal dari alamat `10.51.40.1` tetapi tidak menuju ke alamat `10.39.55.34`, kueri filter yang dapat digunakan yaitu `ip.src == 10.51.40.1 && ip.dst != 10.39.55.34`.
-![Foto](./img/9.png)
+<!-- ![Foto](./img/9.png) -->
 
 ---
 ### Soal 10

@@ -7,6 +7,8 @@ Nama Anggota | NRP
 Aqil Sutlhan Yuki Maye | 5027211007
 Adimas Defatra Bimasena Sulthantik M | 5027211040
 
+## Modul 1
+
 ## Daftar Soal :
 - [Soal 1](#soal-1)
 - [Soal 2](#soal-2)
@@ -19,7 +21,7 @@ Adimas Defatra Bimasena Sulthantik M | 5027211040
 - [Soal 9](#soal-9)
 - [Soal 10](#soal-10)
 
-## Modul 1
+---
 ### Soal 1
 User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
 
